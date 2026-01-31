@@ -9,7 +9,9 @@ void setup() {
 }
 
 void loop() {
-Serial.printf( "heelo world");  // put your main code here, to run repeatedly:
+Serial.printf( "heelo world");
+serialEventRun;  
+Serial.printf("d");// put your main code here, to run repeatedly:
 }
 
 // put function definitions here:
